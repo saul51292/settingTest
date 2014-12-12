@@ -23,10 +23,15 @@
 		C7783E7A1A3A30DD000717FB /* settingsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7783E791A3A30DD000717FB /* settingsData.swift */; };
 		C7783E7C1A3A4DFF000717FB /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7783E7B1A3A4DFF000717FB /* Montserrat-Regular.ttf */; };
 		C7783E7D1A3A4DFF000717FB /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7783E7B1A3A4DFF000717FB /* Montserrat-Regular.ttf */; };
+		C7C04A641A3B885C00306CBB /* InformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C04A621A3B885C00306CBB /* InformationVC.swift */; };
+		C7C04A651A3B885C00306CBB /* InformationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7C04A631A3B885C00306CBB /* InformationVC.xib */; };
+		C7C04A671A3B8E3400306CBB /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C04A661A3B8E3400306CBB /* TextField.swift */; };
 		C7C315C91A3A772D00F106C8 /* back1.png in Resources */ = {isa = PBXBuildFile; fileRef = C7C315C81A3A772D00F106C8 /* back1.png */; };
 		C7C315CA1A3A772D00F106C8 /* back1.png in Resources */ = {isa = PBXBuildFile; fileRef = C7C315C81A3A772D00F106C8 /* back1.png */; };
 		C7C315CF1A3A792F00F106C8 /* blurred.png in Resources */ = {isa = PBXBuildFile; fileRef = C7C315CE1A3A792F00F106C8 /* blurred.png */; };
 		C7C315D01A3A792F00F106C8 /* blurred.png in Resources */ = {isa = PBXBuildFile; fileRef = C7C315CE1A3A792F00F106C8 /* blurred.png */; };
+		C7F94F351A3B948E000742E0 /* TermsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F94F331A3B948E000742E0 /* TermsVC.swift */; };
+		C7F94F361A3B948E000742E0 /* TermsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F94F341A3B948E000742E0 /* TermsVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +64,13 @@
 		C7783E6F1A3A30AC000717FB /* settingTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingTestTests.swift; sourceTree = "<group>"; };
 		C7783E791A3A30DD000717FB /* settingsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsData.swift; sourceTree = "<group>"; };
 		C7783E7B1A3A4DFF000717FB /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		C7C04A621A3B885C00306CBB /* InformationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationVC.swift; sourceTree = "<group>"; };
+		C7C04A631A3B885C00306CBB /* InformationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationVC.xib; sourceTree = "<group>"; };
+		C7C04A661A3B8E3400306CBB /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		C7C315C81A3A772D00F106C8 /* back1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back1.png; sourceTree = "<group>"; };
 		C7C315CE1A3A792F00F106C8 /* blurred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blurred.png; sourceTree = "<group>"; };
+		C7F94F331A3B948E000742E0 /* TermsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsVC.swift; sourceTree = "<group>"; };
+		C7F94F341A3B948E000742E0 /* TermsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TermsVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +112,8 @@
 		C7783E541A3A30AC000717FB /* settingTest */ = {
 			isa = PBXGroup;
 			children = (
-				C7098D951A3A5949004A98AF /* UIBorderLabel.h */,
-				C7098D961A3A5949004A98AF /* UIBorderLabel.m */,
+				C7F94F371A3B9499000742E0 /* Terms */,
+				C7F94F381A3B94A2000742E0 /* Info */,
 				C7783E791A3A30DD000717FB /* settingsData.swift */,
 				C7783E571A3A30AC000717FB /* AppDelegate.swift */,
 				C7783E591A3A30AC000717FB /* MasterViewController.swift */,
@@ -121,6 +131,8 @@
 		C7783E551A3A30AC000717FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C7F94F391A3B94B2000742E0 /* UIBorderLabel */,
+				C7C04A661A3B8E3400306CBB /* TextField.swift */,
 				C7C315CE1A3A792F00F106C8 /* blurred.png */,
 				C7C315C81A3A772D00F106C8 /* back1.png */,
 				C77072F91A3A69A800693511 /* back.png */,
@@ -146,6 +158,33 @@
 				C7783E6E1A3A30AC000717FB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7F94F371A3B9499000742E0 /* Terms */ = {
+			isa = PBXGroup;
+			children = (
+				C7F94F331A3B948E000742E0 /* TermsVC.swift */,
+				C7F94F341A3B948E000742E0 /* TermsVC.xib */,
+			);
+			name = Terms;
+			sourceTree = "<group>";
+		};
+		C7F94F381A3B94A2000742E0 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				C7C04A621A3B885C00306CBB /* InformationVC.swift */,
+				C7C04A631A3B885C00306CBB /* InformationVC.xib */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		C7F94F391A3B94B2000742E0 /* UIBorderLabel */ = {
+			isa = PBXGroup;
+			children = (
+				C7098D951A3A5949004A98AF /* UIBorderLabel.h */,
+				C7098D961A3A5949004A98AF /* UIBorderLabel.m */,
+			);
+			name = UIBorderLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +271,10 @@
 				C7783E5F1A3A30AC000717FB /* Main.storyboard in Resources */,
 				C77072FA1A3A69A800693511 /* back.png in Resources */,
 				C7783E641A3A30AC000717FB /* LaunchScreen.xib in Resources */,
+				C7F94F361A3B948E000742E0 /* TermsVC.xib in Resources */,
 				C7783E611A3A30AC000717FB /* Images.xcassets in Resources */,
 				C7C315C91A3A772D00F106C8 /* back1.png in Resources */,
+				C7C04A651A3B885C00306CBB /* InformationVC.xib in Resources */,
 				C7C315CF1A3A792F00F106C8 /* blurred.png in Resources */,
 				C77072EB1A3A60E800693511 /* sample.png in Resources */,
 			);
@@ -259,7 +300,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7783E7A1A3A30DD000717FB /* settingsData.swift in Sources */,
+				C7C04A641A3B885C00306CBB /* InformationVC.swift in Sources */,
 				C7783E5C1A3A30AC000717FB /* DetailViewController.swift in Sources */,
+				C7C04A671A3B8E3400306CBB /* TextField.swift in Sources */,
+				C7F94F351A3B948E000742E0 /* TermsVC.swift in Sources */,
 				C7783E5A1A3A30AC000717FB /* MasterViewController.swift in Sources */,
 				C7783E581A3A30AC000717FB /* AppDelegate.swift in Sources */,
 				C7098D971A3A5949004A98AF /* UIBorderLabel.m in Sources */,

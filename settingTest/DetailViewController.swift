@@ -11,6 +11,7 @@ import UIKit
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
+    @IBOutlet var backImage: UIImageView!
 
 
     var detailItem: AnyObject? {
@@ -24,14 +25,36 @@ class DetailViewController: UIViewController {
         // Update the user interface for the detail item.
         if let detail: AnyObject = self.detailItem {
             if let label = self.detailDescriptionLabel {
-                label.text = detail.description
+                if detail.description == "Jolly Rancher"
+                {
+                    self.title = detail.description
+                    NSBundle.mainBundle().loadNibNamed("InformationVC", owner: self, options: nil)
+                }
+                else if detail.description == "Snickers"
+                {
+                    self.title = detail.description
+                   // self.navigationController?.setNavigationBarHidden(true, animated: true)
+                    NSBundle.mainBundle().loadNibNamed("TermsVC", owner: self, options: nil)
+                }
+  
+                
+                else
+                    
+                {
+                    self.title = detail.description
+                    label.text = detail.description
+                }
+                
             }
+           
         }
     }
+   
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
         self.configureView()
     }
 

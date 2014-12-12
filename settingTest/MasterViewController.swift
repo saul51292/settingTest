@@ -23,7 +23,8 @@ class MasterViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-               
+        
+
         let image = UIImage(named: imageName)
         let imageView = UIImageView(image: image!)
 

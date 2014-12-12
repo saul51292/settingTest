@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C78c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InformationVC" customModule="settingTest" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blurred.png" translatesAutoresizingMaskIntoConstraints="NO" id="b6C-Uj-h9P">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Full Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dpP-Ht-qIA" customClass="TextField" customModule="settingTest" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="137" width="600" height="50"/>
+                    <color key="backgroundColor" red="0.36862745098039218" green="0.36862745098039218" blue="0.36862745098039218" alpha="0.70000000000000007" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="7cC-dL-bh9"/>
+                    </constraints>
+                    <color key="textColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A7g-8D-zgI" customClass="TextField" customModule="settingTest" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="219" width="600" height="50"/>
+                    <color key="backgroundColor" red="0.36862745099999999" green="0.36862745099999999" blue="0.36862745099999999" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="TG1-ta-2FK"/>
+                    </constraints>
+                    <color key="textColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1tF-IC-hcY">
+                    <rect key="frame" x="0.0" y="301" width="600" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gc5-WR-RQV">
+                            <rect key="frame" x="270" y="10" width="61" height="31"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                            <state key="normal" title="Log Out">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.40000000000000002" green="0.019607843140000001" blue="0.047058823530000002" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="centerX" secondItem="Gc5-WR-RQV" secondAttribute="centerX" id="6Db-jz-boO"/>
+                        <constraint firstAttribute="centerY" secondItem="Gc5-WR-RQV" secondAttribute="centerY" id="csw-ie-m0H"/>
+                        <constraint firstAttribute="height" constant="50" id="qwC-zA-JBM"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="b6C-Uj-h9P" secondAttribute="bottom" id="2BE-nQ-aVz"/>
+                <constraint firstAttribute="centerY" secondItem="1tF-IC-hcY" secondAttribute="centerY" constant="-26" id="2l9-yt-izB"/>
+                <constraint firstItem="1tF-IC-hcY" firstAttribute="trailing" secondItem="A7g-8D-zgI" secondAttribute="trailing" id="7s2-Gd-srK"/>
+                <constraint firstItem="1tF-IC-hcY" firstAttribute="leading" secondItem="A7g-8D-zgI" secondAttribute="leading" id="8sE-oJ-djP"/>
+                <constraint firstItem="A7g-8D-zgI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="9bo-YN-ziK"/>
+                <constraint firstAttribute="centerX" secondItem="1tF-IC-hcY" secondAttribute="centerX" id="D4j-CZ-yc9"/>
+                <constraint firstItem="dpP-Ht-qIA" firstAttribute="leading" secondItem="b6C-Uj-h9P" secondAttribute="leading" id="GLZ-SX-J5g"/>
+                <constraint firstItem="A7g-8D-zgI" firstAttribute="top" secondItem="dpP-Ht-qIA" secondAttribute="bottom" constant="32" id="PwK-Pw-2nY"/>
+                <constraint firstItem="b6C-Uj-h9P" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="RgY-FW-DDs"/>
+                <constraint firstAttribute="trailing" secondItem="A7g-8D-zgI" secondAttribute="trailing" id="V1A-Lj-Hv3"/>
+                <constraint firstItem="1tF-IC-hcY" firstAttribute="top" secondItem="A7g-8D-zgI" secondAttribute="bottom" constant="32" id="bQs-6A-X1H"/>
+                <constraint firstItem="b6C-Uj-h9P" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="dec-gT-cOL"/>
+                <constraint firstItem="A7g-8D-zgI" firstAttribute="top" secondItem="dpP-Ht-qIA" secondAttribute="bottom" constant="32" id="e9f-aG-AbJ"/>
+                <constraint firstItem="dpP-Ht-qIA" firstAttribute="trailing" secondItem="b6C-Uj-h9P" secondAttribute="trailing" id="gXd-fb-0c9"/>
+                <constraint firstItem="dpP-Ht-qIA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="137" id="kX1-Ph-rUr"/>
+                <constraint firstAttribute="trailing" secondItem="b6C-Uj-h9P" secondAttribute="trailing" id="zdT-7m-Hdb"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="PwK-Pw-2nY"/>
+                    <exclude reference="2l9-yt-izB"/>
+                    <exclude reference="D4j-CZ-yc9"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="blurred.png" width="1133" height="1263"/>
+    </resources>
+</document>

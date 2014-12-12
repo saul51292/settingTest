@@ -21,11 +21,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let titleDict: NSDictionary = [NSForegroundColorAttributeName: UIColor.whiteColor(), NSFontAttributeName: font]
             UINavigationBar.appearance().titleTextAttributes = titleDict
         }
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
         UINavigationBar.appearance().shadowImage = UIImage(named: "back")
         UIApplication.sharedApplication().statusBarStyle = .LightContent
 
 
-        
         
         return true
     }
