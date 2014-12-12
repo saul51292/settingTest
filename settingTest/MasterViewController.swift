@@ -34,7 +34,7 @@ class MasterViewController: UITableViewController {
         
         // Do any additional setup after loading the view, typically from a nib.
         //self.navigationItem.leftBarButtonItem = self.editButtonItem()
-        self.settingsData = [settingsDataArray(name: "Jolly Rancher"), settingsDataArray(name: "Snickers"),settingsDataArray(name: "Twix"),settingsDataArray(name: "Milky Way")]
+        self.settingsData = [settingsDataArray(name: "Jolly Rancher"), settingsDataArray(name: "Snickers"),settingsDataArray(name: "Log Out"),settingsDataArray(name: "Milky Way")]
         
         self.sectionsData = [settingsSections(name: "PROFILE"),settingsSections(name: "USER INFO"),settingsSections(name: "ABOUT") ]
         self.numberData = [numberOfRows(number: 2), numberOfRows(number: 2), numberOfRows(number:3)]
@@ -128,10 +128,21 @@ class MasterViewController: UITableViewController {
         var settings : settingsDataArray
 
         settings = settingsData[indexPath.row]
-        cell.separatorInset = UIEdgeInsetsZero
         cell.textLabel!.text = settings.name
         cell.textLabel!.textColor = UIColor.whiteColor()
-        cell.backgroundColor = UIColor.darkGrayColor().colorWithAlphaComponent(0.70)
+        if (cell.textLabel!.text == "Log Out") {
+                        
+            //set custom background color
+            cell.backgroundColor = UIColor.redColor().colorWithAlphaComponent(0.70)
+            cell.textLabel!.textAlignment = .Center
+            cell.accessoryType = UITableViewCellAccessoryType.None
+
+
+        } else {
+            //set default background color
+            cell.backgroundColor = UIColor.darkGrayColor().colorWithAlphaComponent(0.70)
+
+        }
         return cell
     }
 

@@ -26,21 +26,21 @@
                 </imageView>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Full Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dpP-Ht-qIA" customClass="TextField" customModule="settingTest" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="137" width="600" height="50"/>
-                    <color key="backgroundColor" red="0.36862745098039218" green="0.36862745098039218" blue="0.36862745098039218" alpha="0.70000000000000007" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="0.70000000000000007" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="7cC-dL-bh9"/>
                     </constraints>
-                    <color key="textColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="textColor" red="0.36862745098039218" green="0.36862745098039218" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A7g-8D-zgI" customClass="TextField" customModule="settingTest" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="219" width="600" height="50"/>
-                    <color key="backgroundColor" red="0.36862745099999999" green="0.36862745099999999" blue="0.36862745099999999" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="0.70000000000000007" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="TG1-ta-2FK"/>
                     </constraints>
-                    <color key="textColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="textColor" red="0.36862745098039218" green="0.36862745098039218" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
@@ -48,15 +48,15 @@
                     <rect key="frame" x="0.0" y="301" width="600" height="50"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gc5-WR-RQV">
-                            <rect key="frame" x="270" y="10" width="61" height="31"/>
+                            <rect key="frame" x="247" y="10" width="107" height="31"/>
                             <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
-                            <state key="normal" title="Log Out">
+                            <state key="normal" title="Save Changes">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
                     </subviews>
-                    <color key="backgroundColor" red="0.40000000000000002" green="0.019607843140000001" blue="0.047058823530000002" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" red="0.1405567948" green="0.5167809418" blue="0.58468079760000002" alpha="0.83999999999999997" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="centerX" secondItem="Gc5-WR-RQV" secondAttribute="centerX" id="6Db-jz-boO"/>
                         <constraint firstAttribute="centerY" secondItem="Gc5-WR-RQV" secondAttribute="centerY" id="csw-ie-m0H"/>
